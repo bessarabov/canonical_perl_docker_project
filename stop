@@ -1,0 +1,1 @@
+docker rm -f canonical_perl_docker_project

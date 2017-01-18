@@ -1,0 +1,1 @@
+docker build --tag canonical_perl_docker_project .

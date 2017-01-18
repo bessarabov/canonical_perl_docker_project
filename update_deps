@@ -1,0 +1,7 @@
+time docker run \
+    --rm \
+    -it \
+    --volume `pwd`:/app \
+    --volume `pwd`/tmp:/root \
+    canonical_perl_docker_project \
+    sh -c 'cd /app; rm -rf cpanfile.snapshot local; carton install'

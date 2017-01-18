@@ -1,0 +1,5 @@
+docker run \
+    --detach \
+    --publish 80:80 \
+    --name canonical_perl_docker_project \
+    canonical_perl_docker_project
